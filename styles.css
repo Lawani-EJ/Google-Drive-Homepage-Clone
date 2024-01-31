@@ -1,0 +1,328 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1em 0.5em 1em; 
+    background-color: #fff;
+    color: #333; 
+}
+
+.bottom{
+    border-bottom: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 200px;
+    height: auto; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.secondary-nav {
+    margin-left: auto;
+}
+
+.secondary-nav ul {
+    display: flex;
+}
+
+.secondary-nav ul li {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+}
+
+.text {
+    max-width: 600px;
+}
+
+.text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 16px;
+    color: #555;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background-color: #3498db; /* Blue background for Try Drive on hover */
+    color: white;
+}
+
+.buttons button:nth-child(2):hover {
+    background-color: white; /* White background for GoTo Drive on hover */
+    color: #333;
+}
+
+.image2{
+        order: -1; 
+}
+
+.image2 img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.teams-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.teams-text h2 {
+    font-size: 24px;
+}
+
+.team-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.team-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.team-images2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.team-images2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow to images */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect on hover */
+}
+
+.team-images2 img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+.carousel-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.carousel-content {
+    position: relative;
+}
+
+.carousel-content img {
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.carousel-text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    text-align: center;
+}
+
+.carousel-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.carousel-text p {
+    font-size: 16px;
+}
+
+.carousel-dots {
+    margin-top: 20px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+.carousel-dots .dot.inactive {
+    background-color: #ddd;
+}
+
+
+
+.plans-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.plans-text {
+    margin-bottom: 20px;
+}
+
+.plans-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* ... (your existing CSS styles) ... */
+
+.cta-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.underline {
+    border-top: 2px solid black;
+    width: 100px;
+    margin: 0 auto 20px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.blue-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.white-button {
+    background-color: white;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image3 img {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px;
+}
+
+.blog-info {
+    text-align: left;
+    margin-top: 20px; /* Add margin to separate from the buttons */
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 30px; 
+    margin-right: 10px;
+}
+
+
+
+.footer-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-links {
+    text-align: left;
+}
+
+.left-links a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+.right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.language-dropdown {
+    padding: 5px;
+}
+

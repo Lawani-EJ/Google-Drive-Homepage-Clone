@@ -14,9 +14,6 @@ This project is a recreation of the official Google Drive homepage using HTML an
 1. [Description](#description)
 2. [Features](#features)
 3. [Usage](#usage)
-4. [Installation](#installation)
-5. [Contributing](#contributing)
-6. [License](#license)
 
 ## Description
 
@@ -35,7 +32,8 @@ To view the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/google-drive-recreation.git
+   git clone https://github.com/Lawani-EJ/Google-Drive-Homepage.git
+
 )
 
 ## Table of Contents

@@ -87,12 +87,12 @@ nav ul li {
 }
 
 .buttons button:hover {
-    background-color: #3498db; /* Blue background for Try Drive on hover */
+    background-color: #3498db; 
     color: white;
 }
 
 .buttons button:nth-child(2):hover {
-    background-color: white; /* White background for GoTo Drive on hover */
+    background-color: white; 
     color: #333;
 }
 
@@ -145,12 +145,12 @@ nav ul li {
     width: 150px;
     height: 150px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow to images */
-    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
 }
 
 .team-images2 img:hover {
-    transform: scale(1.1); /* Increase size on hover */
+    transform: scale(1.1); 
 }
 
 .carousel-section {
@@ -222,8 +222,6 @@ nav ul li {
     margin-bottom: 10px;
 }
 
-/* ... (your existing CSS styles) ... */
-
 .cta-section {
     text-align: center;
     padding: 40px 0;
@@ -270,14 +268,14 @@ h2 {
 }
 
 .image3 img {
-    width: 200px; /* Adjust size as needed */
+    width: 200px; 
     height: auto;
     border-radius: 10px;
 }
 
 .blog-info {
     text-align: left;
-    margin-top: 20px; /* Add margin to separate from the buttons */
+    margin-top: 20px; 
 }
 
 .social-icons {

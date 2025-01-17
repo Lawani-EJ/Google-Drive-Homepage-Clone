@@ -35,7 +35,7 @@ To view the project locally, follow these steps:
 ## Screenshots and Mockup
 ![image](https://github.com/user-attachments/assets/87cabcab-3918-41fd-b986-24b575a6e33b)
 
-![image](https://github.com/user-attachments/assets/dad2458e-3715-47eb-bca3-3ed8b18f7be2)
+![image](https://github.com/user-attachments/assets/22e28ad4-68f5-4e70-8899-8fbbe40075de)
 
 ![image](https://github.com/user-attachments/assets/fd676447-c52c-4453-bcd7-7c67a34fc6b7)
 
